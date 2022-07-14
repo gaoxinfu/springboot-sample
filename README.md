@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/egnaf/spring-jsp-example.svg)](https://travis-ci.org/egnaf/spring-jsp-example)
 
-# spring-jsp-example
+# springboot-sample
 
 ## Stack
 - Spring Boot 2.2.0.RELEASE
