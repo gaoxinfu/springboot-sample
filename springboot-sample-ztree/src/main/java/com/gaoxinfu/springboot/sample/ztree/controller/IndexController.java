@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class IndexController {
 
-    @RequestMapping("/")
+    @RequestMapping("/index")
     public String home(Map<String, Object> model) {
         model.put("message", "这里是Index主页");
-        return "/oms/config/demo/index";
+        return "index";
     }
 }
