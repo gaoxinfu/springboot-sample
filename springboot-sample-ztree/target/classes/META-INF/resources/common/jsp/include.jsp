@@ -1,0 +1,3 @@
+<%
+   request.setAttribute("coreCurrentSkin","internet");
+%>

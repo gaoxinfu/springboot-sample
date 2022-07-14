@@ -7,17 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-sample-ztree" />
         <module name="springboot-sample-jsp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot-sample" target="1.8" />
       <module name="springboot-sample-jsp" target="1.8" />
+      <module name="springboot-sample-ztree" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-sample-jsp" options="-parameters" />
+      <module name="springboot-sample-ztree" options="-parameters" />
     </option>
   </component>
 </project>
