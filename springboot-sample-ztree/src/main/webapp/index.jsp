@@ -3,10 +3,10 @@
     <HEAD>
         <TITLE> ZTREE DEMO </TITLE>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="ztree/css/demo.css" type="text/css">
-        <link rel="stylesheet" href="ztree/css/zTreeStyle/zTreeStyle.css" type="text/css">
-        <script type="text/javascript" src="ztree/js/jquery-1.4.4.min.js"></script>
-        <script type="text/javascript" src="ztree/js/jquery.ztree.core.js"></script>
+        <link rel="stylesheet" href="css/demo.css" type="text/css">
+        <link rel="stylesheet" href="css/zTreeStyle/zTreeStyle.css" type="text/css">
+        <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+        <script type="text/javascript" src="js/jquery.ztree.core.js"></script>
         <SCRIPT LANGUAGE="JavaScript">
             var zTreeObj;
             // zTree 的参数配置，深入使用请参考 API 文档（setting 配置详解）
