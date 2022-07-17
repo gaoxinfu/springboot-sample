@@ -11,10 +11,10 @@
     </parent>
 
     <groupId>com.gxf.config</groupId>
-    <artifactId>springboot-sample-swagger3</artifactId>
+    <artifactId>springboot-sample-swagger2</artifactId>
     <version>1.0.0</version>
-    <name>springboot-sample-swagger3</name>
-    <description>springboot-sample-swagger3</description>
+    <name>springboot-sample-swagger2</name>
+    <description>springboot-sample-swagger2</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -55,10 +55,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->

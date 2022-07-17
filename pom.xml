@@ -12,7 +12,7 @@
   <modules>
     <module>springboot-sample-jsp</module>
     <module>springboot-sample-ztree</module>
-    <module>springboot-sample-swagger3</module>
+    <module>springboot-sample-swagger2</module>
   </modules>
 
   <repositories>
