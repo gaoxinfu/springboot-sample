@@ -26,12 +26,15 @@ public class SwaggerConfig {
 
     @Bean
     public Docket createRestApi() {
-        return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo()).select()
-                .apis(RequestHandlerSelectors.basePackage("com.gaoxinfu.springboot.sample.swagger3.controller")).paths(PathSelectors.any()).build();
+        return new Docket(DocumentationType.SWAGGER_2)
+                .apiInfo(apiInfo()).select()
+                .apis(RequestHandlerSelectors.basePackage("com.gaoxinfu.springboot.sample.swagger3.controller"))
+                .paths(PathSelectors.any()).build();
     }
 
     private ApiInfo apiInfo() {
-        return new ApiInfoBuilder().title("Spring Boot中使用Swagger2构建RESTful APIs(带认证）")
+        return new ApiInfoBuilder()
+                .title("Spring Boot中使用Swagger2构建RESTful APIs(带认证）")
                 .description("")
                 .termsOfServiceUrl("").version("1.0").build();
     }

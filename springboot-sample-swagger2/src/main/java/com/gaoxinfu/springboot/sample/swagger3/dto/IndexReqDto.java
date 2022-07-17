@@ -2,10 +2,6 @@ package com.gaoxinfu.springboot.sample.swagger3.dto;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
 
 /**
  * @Description:[一句话描述该类的功能]
@@ -14,11 +10,29 @@ import lombok.ToString;
  * @Version 1.0.0
  */
 @ApiModel(value = "index入参请求对象")
-@Data
-@ToString
-@AllArgsConstructor
-@NoArgsConstructor
 public class IndexReqDto {
     @ApiModelProperty(value = "id主键")
     private int id;
+
+    public IndexReqDto() {
+    }
+
+    public IndexReqDto(int id) {
+        this.id = id;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "IndexReqDto{" +
+                "id=" + id +
+                '}';
+    }
 }

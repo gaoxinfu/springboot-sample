@@ -2,10 +2,6 @@ package com.gaoxinfu.springboot.sample.swagger3.dto;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
 
 /**
  * @Description:[一句话描述该类的功能]
@@ -14,10 +10,6 @@ import lombok.ToString;
  * @Version 1.0.0
  */
 @ApiModel(value = "index响应出参对象")
-@Data
-@ToString
-@AllArgsConstructor
-@NoArgsConstructor
 public class IndexResDto {
     @ApiModelProperty(value = "id主键")
     private int id;
@@ -27,4 +19,47 @@ public class IndexResDto {
     private String sex;
     @ApiModelProperty(value = "年龄")
     private int age;
+
+    public IndexResDto() {
+    }
+
+    public IndexResDto(int id, String name, String sex, int age) {
+        this.id = id;
+        this.name = name;
+        this.sex = sex;
+        this.age = age;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
 }
