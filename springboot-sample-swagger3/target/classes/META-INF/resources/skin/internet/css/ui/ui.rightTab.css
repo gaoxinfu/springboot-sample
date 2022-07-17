@@ -1,0 +1,71 @@
+/* rihgtTab
+----------------------------------*/
+
+.rightTabUnSelectedFont{	
+	TEXT-DECORATION:none;
+	border:0;
+	font-weight:bold;
+	color:#FFFFFF;
+	display: block;
+	layout-flow:vertical-ideographic;
+	overflow: hidden;
+	text-align:center;
+	margin-left: 5px;
+	letter-spacing: 2px;	
+}
+
+.rightTabSelectedFont{	
+	TEXT-DECORATION:none;
+	border:0;
+	font-weight:bold;
+	color:#066C9C;
+	display: block;
+	layout-flow:vertical-ideographic;
+	margin-left: 5px;
+	letter-spacing: 3px;
+}
+.rightTabUnSelected{
+	background:url(../images/tabUnSelect.png);
+	width:30px;
+	height:74px;
+	margin-left: -10px;
+	margin-top: -10px;
+	
+}
+.rightTabSelected{
+	background:url(../images/tabSelect.png);
+	width:30px;
+	height:74px;
+	margin-left: -10px;
+	margin-top: -10px;
+}
+
+.titleLeft{	
+background:url(../images/tittleBgLeft.png);
+width:8px;
+height:30px;
+border:0px;
+
+}
+.titleCenter{	
+background:url(../images/tittleBgCenter.png);
+width:97%;
+height:30px;
+border:0px;
+
+}
+.titleRight{	
+background:url(../images/tittleBgRight.png);
+width:8px;
+height:30px;
+border:0px;
+}
+
+.titleFont{	
+	border:0;
+	font-weight:bold;
+	color:#066C9C;
+	text-align:center;
+	margin-left: 5px;
+	letter-spacing: 2px;	
+}

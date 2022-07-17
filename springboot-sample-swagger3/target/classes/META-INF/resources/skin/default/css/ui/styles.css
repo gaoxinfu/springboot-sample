@@ -1,0 +1,110 @@
+.treeDiv{
+ padding: 1em 0em; 
+ background-color: #ffffee;
+}
+.clear {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+.page-head{
+	background-image:url("../../../../um/skin/default/css/images/9.png");
+	background-position:right center;
+	background-repeat:no-repeat;
+}
+	body{	
+		font-family:宋体;
+		font-size: 8pt;
+	}
+	p				{ margin:		1em 0; }
+
+	/* use !important to override UI theme styles */
+	.grey			{ background:	#B3D2E6 !important; }
+	#tabs-center li .ui-icon-close { float: left; margin: 0.4em 0.2em 0 0; cursor: pointer; }
+
+a:focus{ outline:none;}
+.ui-autocomplete-input{
+	background-color:#D3E1FB;
+	border:1px solid #236E99;
+	width:39px;
+	float: left;
+}
+.ui-autocomplete-label{
+	width:96px;
+	border: 1px solid #236E99;
+	border-left:0px;
+	float: left;
+}
+.ui-guohua-input-text{
+	width:138px;
+	border: 1px solid #236E99;
+	vertical-align: middle;
+}
+.main-center {
+	border: 0;
+	padding:		0; 
+	overflow:		auto;
+}
+.inner-center{
+	border: 1px solid  #BBB;
+		overflow: hidden;
+		padding-bottom:1px;
+}
+.ui-corner-none{
+	-moz-border-radius:0px 0px 0px 0px;
+}
+.ui-layout-resizer-west-dragging ,
+.ui-layout-resizer-east-dragging {
+	border-left:		1px solid #BBB;
+	border-right:		1px solid #BBB;
+}
+.ui-layout-resizer-north-dragging ,
+.ui-layout-resizer-south-dragging {
+	border-top:		1px solid #BBB;
+	border-bottom:	1px solid #BBB;
+}
+
+.ui-layout-pane-north{
+	padding:0;
+}
+.status-bar{
+	background:none repeat scroll 0 0 #DDDDDD;
+	border: 1px solid  #BBB;
+	text-align: center;
+	margin:0;
+	padding:0; 
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	left: 0px
+}
+.status-bar .ui-icon {background-image: url(../../../../um/skin/default/css/images/ui-icons_ed9f26_256x240.png); }
+.system-button-selected,
+.system-button{ 
+	cursor:pointer;
+}
+.ui-tabs-panel{
+	overflow:hidden;
+	position:relative;
+}
+.page-title{
+	cursor:pointer;
+	
+	width: 200px;
+}
+
+.page-title tr{
+	height: 20px;
+}
+.error{
+	color: red;
+}
+
+.mainDivStyle{
+	overflow:auto; 
+	height:auto;
+	position:relative;
+	width: 90%;
+}
+

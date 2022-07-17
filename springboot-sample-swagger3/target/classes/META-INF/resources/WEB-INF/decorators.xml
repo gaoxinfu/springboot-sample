@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<decorators defaultdir="/decorators">
+	<excludes>
+		<pattern>**ajax=true**</pattern>
+		<pattern>**index**</pattern>
+		<pattern>**frm_**</pattern>
+		<pattern>**noLayout=true**</pattern>
+		<pattern>**/skin/**</pattern>
+		<pattern>**index.do**</pattern>
+	</excludes>
+
+	<decorator name="noLayout" page="noLayout.jsp">
+	</decorator>
+
+	<decorator name="mainLayout" page="mainLayout.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+
+
+</decorators>
