@@ -74,3 +74,111 @@ knife4j.basic.enable=true
 knife4j.production=false
 knife4j.enable=true
 ```
+
+# controller request response 
+
+```java
+
+@Api(tags = "Index")
+@RestController
+@Controller
+public class IndexController {
+
+
+    @ApiOperation(value = "index方法")
+    @PostMapping("/index")
+    public IndexResDto index(@RequestBody IndexReqDto indexReqDto) {
+        System.out.println("indexReqDto = "+indexReqDto);
+        return new IndexResDto(1,"gaoxinfu","man",18);
+    }
+}
+```
+
+```java
+@ApiModel(value = "index入参请求对象")
+public class IndexReqDto {
+    @ApiModelProperty(value = "id主键")
+    private int id;
+
+    public IndexReqDto() {
+    }
+
+    public IndexReqDto(int id) {
+        this.id = id;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "IndexReqDto{" +
+                "id=" + id +
+                '}';
+    }
+}
+```
+
+```java
+@ApiModel(value = "index响应出参对象")
+public class IndexResDto {
+    @ApiModelProperty(value = "id主键")
+    private int id;
+    @ApiModelProperty(value = "姓名")
+    private String name;
+    @ApiModelProperty(value = "性别")
+    private String sex;
+    @ApiModelProperty(value = "年龄")
+    private int age;
+
+    public IndexResDto() {
+    }
+
+    public IndexResDto(int id, String name, String sex, int age) {
+        this.id = id;
+        this.name = name;
+        this.sex = sex;
+        this.age = age;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+}
+```
+
+
