@@ -36,6 +36,8 @@ public class SwaggerConfig {
         return new ApiInfoBuilder()
                 .title("Spring Boot中使用Swagger2构建RESTful APIs(带认证）")
                 .description("")
-                .termsOfServiceUrl("").version("1.0").build();
+                .termsOfServiceUrl("")
+                .version("1.0")
+                .build();
     }
 }
