@@ -13,6 +13,8 @@
     <module>springboot-sample-jsp</module>
     <module>springboot-sample-ztree</module>
     <module>springboot-sample-swagger2</module>
+    <module>springboot-sample-openfeign</module>
+    <module>springboot-sample-eureka-server</module>
   </modules>
 
   <repositories>

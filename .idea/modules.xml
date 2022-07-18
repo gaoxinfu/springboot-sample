@@ -3,7 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springboot-sample.iml" filepath="$PROJECT_DIR$/springboot-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-sample-eureka-server/springboot-sample-eureka-server.iml" filepath="$PROJECT_DIR$/springboot-sample-eureka-server/springboot-sample-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-sample-jsp/springboot-sample-jsp.iml" filepath="$PROJECT_DIR$/springboot-sample-jsp/springboot-sample-jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-sample-openfeign/springboot-sample-openfeign.iml" filepath="$PROJECT_DIR$/springboot-sample-openfeign/springboot-sample-openfeign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-sample-openfeign/springboot-sample-openfeign-client/springboot-sample-openfeign-client.iml" filepath="$PROJECT_DIR$/springboot-sample-openfeign/springboot-sample-openfeign-client/springboot-sample-openfeign-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-sample-openfeign/springboot-sample-openfeign-server/springboot-sample-openfeign-server.iml" filepath="$PROJECT_DIR$/springboot-sample-openfeign/springboot-sample-openfeign-server/springboot-sample-openfeign-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-sample-swagger2/springboot-sample-swagger2.iml" filepath="$PROJECT_DIR$/springboot-sample-swagger2/springboot-sample-swagger2.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-sample-ztree/springboot-sample-ztree.iml" filepath="$PROJECT_DIR$/springboot-sample-ztree/springboot-sample-ztree.iml" />
     </modules>

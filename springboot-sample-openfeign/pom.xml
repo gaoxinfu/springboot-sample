@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.gxf.config</groupId>
+    <artifactId>springboot-sample-openfeign</artifactId>
+    <version>1.0.0</version>
+    <name>springboot-sample-openfeign</name>
+    <description>springboot-sample-openfeign</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>springboot-sample-openfeign-server</module>
+        <module>springboot-sample-openfeign-client</module>
+    </modules>
+
+    <repositories>
+        <repository>
+            <id>maven-public</id>
+            <name>maven-public</name>
+            <url>http://localhost:8081/repository/maven-public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+                <checksumPolicy>warn</checksumPolicy>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <!-- 发布选项: id必须与setting.xml文件中server的id相同 -->
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>Nexus Release Repository</name>
+            <url>http://localhost:8081/repository/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Nexus Snapshot Repository</name>
+            <url>http://localhost:8081/repository/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+</project>

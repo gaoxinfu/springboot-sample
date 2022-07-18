@@ -14,7 +14,6 @@
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
           <factory-entry name="entityManagerFactory" />
-          <factory-entry name="springboot-sample-jsp" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>

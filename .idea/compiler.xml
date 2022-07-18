@@ -14,9 +14,12 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot-sample" target="1.8" />
+      <module name="springboot-sample-eureka-server" target="1.8" />
       <module name="springboot-sample-jsp" target="1.8" />
+      <module name="springboot-sample-openfeign" target="1.8" />
+      <module name="springboot-sample-openfeign-client" target="1.8" />
+      <module name="springboot-sample-openfeign-server" target="1.8" />
       <module name="springboot-sample-swagger2" target="1.8" />
-      <module name="springboot-sample-swagger3" target="1.8" />
       <module name="springboot-sample-ztree" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -24,7 +27,6 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-sample-jsp" options="-parameters" />
       <module name="springboot-sample-swagger2" options="-parameters" />
-      <module name="springboot-sample-swagger3" options="-parameters" />
       <module name="springboot-sample-ztree" options="-parameters" />
     </option>
   </component>
