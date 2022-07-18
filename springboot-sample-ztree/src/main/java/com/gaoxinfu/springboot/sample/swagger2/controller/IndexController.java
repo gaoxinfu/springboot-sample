@@ -1,4 +1,4 @@
-package com.gaoxinfu.springboot.sample.swagger3.controller;
+package com.gaoxinfu.springboot.sample.swagger2.controller;
 
 import java.util.Map;
 

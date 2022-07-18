@@ -1,4 +1,4 @@
-package com.gaoxinfu.springboot.sample.swagger3.dto;
+package com.gaoxinfu.springboot.sample.swagger2.dto;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

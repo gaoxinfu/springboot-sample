@@ -1,4 +1,4 @@
-package com.gaoxinfu.springboot.sample.swagger3.common.config;
+package com.gaoxinfu.springboot.sample.swagger2.common.config;
 
 import com.github.xiaoymin.knife4j.spring.annotations.EnableKnife4j;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnExpression;

@@ -1,4 +1,4 @@
-package com.gaoxinfu.springboot.sample.swagger3;
+package com.gaoxinfu.springboot.sample.swagger2;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;

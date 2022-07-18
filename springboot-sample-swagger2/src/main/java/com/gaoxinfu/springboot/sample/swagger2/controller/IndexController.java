@@ -1,7 +1,7 @@
-package com.gaoxinfu.springboot.sample.swagger3.controller;
+package com.gaoxinfu.springboot.sample.swagger2.controller;
 
-import com.gaoxinfu.springboot.sample.swagger3.dto.IndexReqDto;
-import com.gaoxinfu.springboot.sample.swagger3.dto.IndexResDto;
+import com.gaoxinfu.springboot.sample.swagger2.dto.IndexReqDto;
+import com.gaoxinfu.springboot.sample.swagger2.dto.IndexResDto;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.stereotype.Controller;
