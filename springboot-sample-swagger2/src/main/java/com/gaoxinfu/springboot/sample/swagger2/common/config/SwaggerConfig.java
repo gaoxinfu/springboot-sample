@@ -28,7 +28,7 @@ public class SwaggerConfig {
     public Docket createRestApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo()).select()
-                .apis(RequestHandlerSelectors.basePackage("com.gaoxinfu.springboot.sample.swagger3.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.gaoxinfu.springboot.sample.swagger2.controller"))
                 .paths(PathSelectors.any()).build();
     }
 
